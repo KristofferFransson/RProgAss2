@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL    ## Makes sure the inverse is NULL
   
   ## The below sub-function "set" makes the variables global
-  set < function(y){
+  set <- function(y){
     x <<- y
     inverse <<- NULL
   }
